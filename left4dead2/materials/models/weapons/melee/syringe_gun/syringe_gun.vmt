@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	"GPU<2"
+	{
+		$baseTexture "models\weapons\melee\syringe_gun\syringe_gun_diffuse_bakedspec"
+	}
+	"GPU>=2"
+	{
+		$baseTexture "models\weapons\melee\syringe_gun\syringe_gun_diffuse"
+		//$color "[0.8 0.8 0.8]"
+		$bumpmap "models\weapons\melee\syringe_gun\syringe_gun_normal"
+		$envmap env_cubemap
+		//$envmap hlmv/cubemap2
+		$basealphaenvmapmask 1
+
+		$envmaptint "[0.8 0.8 0.8]"
+
+		$phong 1
+		$halflambert 0
+		$phongboost 1.0
+		$allowdiffusemodulation 1
+
+		$phongexponenttexture "models\weapons\melee\syringe_gun\syringe_gun_phong"
+		$phongfresnelranges "[0.1 1 2]"
+
+		$surfaceprop "weapon"
+
+	}
+}

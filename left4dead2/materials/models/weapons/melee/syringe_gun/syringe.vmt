@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\melee\syringe_gun\syringe_diffuse"
+	$bumpmap "models\weapons\melee\syringe_gun\syringe_normal"
+	$envmap env_cubemap
+	//$envmapmask "models\weapons\melee\syringe_gun\syringe_envmap"
+	$normalmapalphaenvmapmask 1
+	//$alpha 0.3
+	$translucent 1
+	
+	//$phong 1
+	//$phongboost 0.2
+	//$phongexponent 10
+	//$phongexponenttexture "models\weapons\melee\syringe_gun\syringe_gun_phong"
+	//$phongfresnelranges "[0.8 0.9 1]"
+	//$basemapalphaphongmask 1
+	//$surfaceprop "weapon"
+	//$rimlight 1
+	//$rimlightexponent       200
+	//$rimlightboost          10
+}

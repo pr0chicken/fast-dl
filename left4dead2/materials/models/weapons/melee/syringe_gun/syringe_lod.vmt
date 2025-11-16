@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\melee\syringe_gun\syringe_diffuse"
+}
