@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models/guandaomt/guandao_longtou"
+$bumpmap "models/guandaomt/guandao_longtou_normal"
+
+$envmap env_cubemap
+$envmapmask "models/guandaomt/guandao_fs"
+$envmapfresnel 1
+
+}

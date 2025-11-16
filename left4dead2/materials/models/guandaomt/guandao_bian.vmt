@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/guandaomt/guandao_bian"
+
+$envmap env_cubemap
+$envmapfresnel 1
+
+}
