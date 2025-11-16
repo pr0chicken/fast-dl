@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/melee/FarfetchdLeek/Body"
+	"$bumpmap" "models/weapons/melee/FarfetchdLeek/Body_bump"
+	"$normalmapalphaenvmapmask" 1
+//	"$alphatest" 1	Why was this here in the first place?
+	$phongfresnelranges "[.1 .4 2]"
+	
+	$phong 1
+	$phongboost 7
+	$phongexponent 1
+"$nodecal" "1"  
+$detail "models/infected/hunter/hunter_01_detail.vtf"
+$detailscale "1.75"
+$detailblendfactor .001 
+$detailblendmode 0
+$detailAmount 0
+Proxies
+{
+BloodyHands
+{
+resultVar $detailAmount
+}
+Equals
+{
+srcVar1 $detailAmount
+resultVar $detailblendfactor
+}
+}
+}

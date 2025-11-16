@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/melee/FarfetchdLeek/Body_gold"
+	"$bumpmap" "models/weapons/melee/FarfetchdLeek/Body_bump"
+$phong 1
+$phongboost 20
+$phongexponent 20
+$phongexponenttexture "models\Weapons\melee/crowbar_gold_tint"
+$basemapluminancephongmask 1
+$phongfresnelranges "[5 30 5]"
+$phongalbedotint 1
+$normalmapalphaenvmapmask 1
+$envmap env_cubemap
+$envmapfresnel 1
+$envmaptint "[0.4 0.22 0.02]"
+"$nodecal" "1" 
+$detail "models/infected/hunter/hunter_01_detail.vtf"
+$detailscale "1.75"
+$detailblendfactor .001 
+$detailblendmode 0
+$detailAmount 0
+Proxies
+{
+BloodyHands
+{
+resultVar $detailAmount
+}
+Equals
+{
+srcVar1 $detailAmount
+resultVar $detailblendfactor
+}
+}
+}
