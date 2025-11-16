@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\melee\m72law\rocket"
+	$bumpmap "models\weapons\melee\m72law\rocket_normal"
+	$phong 1
+	$phongboost .2
+	$phongexponent 5
+	//$phongexponenttexture "models\weapons\melee\flamethrower\flame_composite_exp"
+	$phongfresnelranges "[1 2 5]"
+	$basemapalphaphongmask 1
+	$surfaceprop "canister"
+	
+}
