@@ -1,0 +1,6 @@
+VertexLitGeneric 
+{  
+$basetexture "airdrop/airplane_parachute"  
+$envmap env_cubemap
+$envmaptint "[ .1 .1 .1 ]"
+} 
