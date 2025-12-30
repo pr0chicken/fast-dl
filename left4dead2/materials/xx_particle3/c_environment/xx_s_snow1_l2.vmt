@@ -1,0 +1,9 @@
+spritecard
+{
+$basetexture "xx_particle3/C_Environment/xx_S_snow1"
+$translucent 1
+$additive 1
+$overbrightfactor 2
+$depthblend 0
+
+}

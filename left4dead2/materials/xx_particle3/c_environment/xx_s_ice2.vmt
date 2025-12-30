@@ -1,0 +1,8 @@
+SpriteCard
+{
+$basetexture "xx_particle3/C_Environment/xx_S_ice2"
+$vertexcolor 1
+$vertexalpha 1
+$translucent 1
+$overbrightfactor 2
+}

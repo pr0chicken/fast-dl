@@ -1,0 +1,6 @@
+SpriteCard
+{
+$basetexture "xx_particle3/C_Environment/particle_glow_04"
+$translucent 1
+$Additive 1
+}

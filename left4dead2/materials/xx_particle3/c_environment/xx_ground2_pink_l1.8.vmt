@@ -1,0 +1,10 @@
+SpriteCard
+{
+$basetexture "xx_particle3/C_Environment/xx_Ground2_pink"
+	$additive 1
+	$translucent 1
+	$overbrightfactor 1.8
+	$nocull 1
+	//$ignorez 1
+	//$splinetype 2
+}

@@ -1,0 +1,11 @@
+spritecard
+{
+$basetexture "xx_particle3/C_Environment/Particle_Glow_05"
+$vertexcolor 1
+$vertexalpha 1
+$translucent 1
+$additive 1
+$overbrightfactor 5
+//$ignorez 1
+$depthblend 0
+}

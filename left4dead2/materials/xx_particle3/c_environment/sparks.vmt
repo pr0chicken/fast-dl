@@ -1,0 +1,11 @@
+SpriteCard
+{
+
+$basetexture "xx_particle3/C_Environment/sparks"
+$additive 1
+$splinetype 2
+$depthblend 0
+$distancealpha 1
+$softedges 0
+$overbrightfactor 3
+}

@@ -1,0 +1,8 @@
+SpriteCard
+{
+$basetexture "xx_particle3/C_Environment/xx_beam_bend2"
+$additive 1
+$translucent 1
+$splinetype 2
+$overbrightfactor 4
+}
